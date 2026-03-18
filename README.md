@@ -129,9 +129,7 @@ moonlight-warehouse-management/
 │   ├── deployment.md
 │   ├── final-report.md
 │   └── product-demo.md
-├── frontend/
-├── backend/
-├── database/
+├── app/
 ├── tests/
 ├── README.md
 └── .gitignore

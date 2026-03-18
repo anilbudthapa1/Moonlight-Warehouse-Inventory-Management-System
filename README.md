@@ -132,6 +132,10 @@ moonlight-warehouse-management/
 ├── frontend/
 ├── backend/
 ├── database/
+├── tests/
+├── README.md
+└── .gitignore
+
 ```
 
 ## 🚀 Development Approach
@@ -201,6 +205,3 @@ The project will apply privacy-by-design principles, use secure authentication a
 MIT License © 2026 Moonlight Warehouse Management System Team
 
 This project is being developed for academic and educational purposes.
-├── tests/
-├── README.md
-└── .gitignore

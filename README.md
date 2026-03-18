@@ -132,7 +132,7 @@ moonlight-warehouse-management/
 ├── frontend/
 ├── backend/
 ├── database/
-
+```
 
 ## 🚀 Development Approach
 

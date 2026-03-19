@@ -119,6 +119,7 @@ The project is being managed using a structured team approach with the following
 ```text
 moonlight-warehouse-management/
 ├── docs/
+│   ├── charts/
 │   ├── problemstatement.md
 │   ├── market-research.md
 │   ├── srs.md

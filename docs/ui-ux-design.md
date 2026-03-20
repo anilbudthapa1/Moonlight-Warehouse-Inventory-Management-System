@@ -12,78 +12,39 @@
 
 # 1. Introduction
 
-This document presents the **UI/UX design** for the **Moonlight Warehouse Management System**, a web-based warehouse and inventory management solution for an Australian e-commerce grocery business. The purpose of this document is to describe how users will interact with the system, how the interface supports the main workflows, and how visual diagrams are used to represent important system use cases.
+This document presents the UI/UX design for the **Moonlight Warehouse Management System**, a web-based warehouse and inventory management solution designed for an Australian e-commerce grocery business. The purpose of this document is to describe the main user interaction flows, the expected interface behavior, and the use case-based workflows that guide the design of the system. The interface is designed to be simple, role-based, and efficient for administrators, warehouse managers, and warehouse staff.
 
-The UI/UX design focuses on usability, clarity, efficiency, and role-based access. Since the system will be used by administrators, warehouse managers, and warehouse staff, the interface must support different user roles while keeping the navigation simple and consistent. The design also considers common warehouse tasks such as login, product management, supplier management, stock-in, stock-out, inventory adjustments, expiry tracking, and reporting.
-
-This document includes explanations of the main interface workflows and references to use case diagrams stored in the project repository. These diagrams visually represent how users interact with the system for each core function.
+The workflows included in this document help explain how users interact with major features such as login, product management, supplier management, stock recording, inventory adjustment, expiry tracking, and reporting. Each use case includes a short explanation, preconditions, postconditions, flow summary, and a reference screenshot or workflow diagram stored in the repository.
 
 ---
 
-# 2. UI/UX Design Objectives
+# 2. Design Objectives
 
-The UI/UX design aims to achieve the following:
+The UI/UX design aims to:
 
-- provide a clean and easy-to-use interface
-- reduce confusion during warehouse operations
-- support fast access to key inventory functions
-- ensure role-based navigation and permissions
-- improve visibility of stock, alerts, and operational data
-- support efficient data entry and workflow completion
-- make the system easy to learn for first-time users
-
----
-
-# 3. Design Principles
-
-The UI/UX design follows these principles:
-
-- **Clarity** — pages should be readable and understandable
-- **Consistency** — forms, buttons, layouts, and navigation should follow the same style
-- **Efficiency** — users should complete common tasks quickly
-- **Visibility** — important alerts and stock information should be easy to see
-- **Feedback** — the system should clearly show success, failure, and validation messages
-- **Role-Based Experience** — users should only see features relevant to their role
+- provide a clean and understandable interface
+- support role-based access and navigation
+- reduce user confusion during warehouse tasks
+- improve speed and accuracy of data entry
+- make alerts, stock levels, and reports easy to view
+- support efficient warehouse workflows
+- provide clear validation and feedback messages
 
 ---
 
-# 4. Main User Roles in the Interface
+# 3. Main Roles
 
-The interface is designed for the following user roles:
+The system interface is designed for:
 
-## 4.1 Administrator
-The administrator manages users, permissions, system configuration, and overall data control.
-
-## 4.2 Warehouse Manager
-The warehouse manager monitors inventory, adjusts stock, reviews reports, manages suppliers, and tracks expiry-sensitive items.
-
-## 4.3 Warehouse Staff
-Warehouse staff perform operational tasks such as stock-in, stock-out, batch entry, and location-based inventory updates.
+- **Administrator**
+- **Warehouse Manager**
+- **Warehouse Staff**
 
 ---
 
-# 5. Main UI Modules
+# 4. Screenshot and Diagram Storage Location
 
-The main user interface modules include:
-
-- Login page
-- Role-based dashboard
-- Product management page
-- Supplier management page
-- Warehouse location page
-- Inventory management page
-- Stock-in page
-- Stock-out page
-- Batch and expiry tracking page
-- Alerts page
-- Reports page
-- User management page
-
----
-
-# 6. Diagram Storage Location
-
-All workflow and use case images are stored in the repository under the following location:
+All screenshots and workflow diagrams should be stored in the following folder:
 
 ```text
 charts/resources/diagram/

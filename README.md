@@ -38,10 +38,10 @@ The objective of the Moonlight Warehouse Management System project is to develop
 ---
 
 ## ❗ Problem Statement
-Moonlight, as an e-commerce grocery business, requires efficient warehouse operations to manage stock, fulfil orders, and reduce wastage. However, manual and disconnected processes can lead to inaccurate stock records, delays, poor stock visibility, and difficulty tracking expiry-sensitive products.
 
-This problem affects warehouse staff, managers, and business stakeholders, and can ultimately reduce customer satisfaction. In the Australian market, where efficiency, reliability, and digital capability are critical, there is a strong need for a modern warehouse management solution.
+A detailed description of the business problem, affected stakeholders, root causes, and project need is provided in the project documentation:
 
+- [Problem Statement](docs/problemstatement.md)
 ---
 
 ## 📌 Project Scope

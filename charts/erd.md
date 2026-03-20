@@ -153,17 +153,17 @@ The following screenshots are included as evidence of the database and ERD creat
 ### 1. pgAdmin Database Creation / Query Execution
 This screenshot shows the PostgreSQL database in pgAdmin 4 and confirms that the SQL schema was successfully executed.
 
-![pgAdmin Schema Execution](../charts/pgadmin-schema-execution.png)
+![pgAdmin Schema Execution](../charts/resources/pgadmin-schema-execution.png)
 
 ### 2. DBeaver ER Diagram Generation
 This screenshot shows the automatically generated ER diagram after reverse engineering the PostgreSQL schema in DBeaver.
 
-![DBeaver ER Diagram](../charts/dbeaver-erd.png)
+![DBeaver ER Diagram](../charts/resources/dbeaver-erd.png)
 
 ### 3. Database Tables in pgAdmin
 This screenshot shows the created tables inside the PostgreSQL database after successful schema execution.
 
-![pgAdmin Tables](../charts/pgadmin-tables.png)
+![pgAdmin Tables](../charts/resources/pgadmin-tables.png)
 
 ---
 

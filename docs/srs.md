@@ -364,6 +364,7 @@ The project excludes:
 
 **Actors:** Administrator, Warehouse Manager, Warehouse Staff  
 **Description:** A user selects a role, enters login credentials, and accesses the system based on the authenticated account role. If the user account does not exist, the system provides an option to create a new account.  
+
 **Preconditions:**  
 - The login page is available  
 - The user must select a role before attempting login  
@@ -374,24 +375,8 @@ The project excludes:
 - Invalid users are shown an appropriate error message  
 - New users may create an account and return to the login page  
 
-#### Main Flow
-1. The user opens the login page  
-2. The user selects a role  
-3. The user enters email and password  
-4. The system checks whether the account exists  
-5. The system validates the password  
-6. The system checks whether the selected role matches the registered account role  
-7. The system creates a session/token  
-8. The system redirects the user to the correct dashboard  
-
-#### Alternative Flows
-- If no role is selected, the system asks the user to select a role  
-- If the account does not exist, the system offers account registration  
-- If the password is incorrect, the system displays an invalid credentials message  
-- If the selected role does not match the account role, the system displays a role mismatch message
-  
-#### Workflow Diagram
-![User Authentication Workflow](../charts/resources/User%20Authentication%20Workflow-2026-03-20-233959.png) 
+**UI/UX Workflow Reference:**  
+- [View User Authentication Workflow](ui-ux-design.md#user-authentication-workflow)
 
 ## UC-02 Manage Products
 **Actor:** Administrator, Warehouse Manager  

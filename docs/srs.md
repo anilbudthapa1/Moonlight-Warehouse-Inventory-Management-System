@@ -21,13 +21,24 @@ The system is intended to reduce manual work, improve inventory accuracy, suppor
 ## 1.3 Intended Audience
 This document is intended for:
 
-- Product Manager
-- Tech Lead
-- Backend Developer
-- Frontend Developer
-- QA Engineer
-- Project Supervisor / Lecturer
-- Client / Business Stakeholders
+# Stakeholder Team
+
+> ![Project Manager](https://img.shields.io/badge/Project%20Manager-Anil%20Budthapa-blueviolet?style=for-the-badge)  
+> ![Backend Developer](https://img.shields.io/badge/Backend%20Developer-Anil%20Budthapa-1E90FF?style=for-the-badge)  
+> `K250101@student.kent.edu.au`
+
+> ![Tech Lead](https://img.shields.io/badge/Tech%20Lead-Diwas%20Phuyal-red?style=for-the-badge)  
+> ![Frontend Developer](https://img.shields.io/badge/Frontend%20Developer-Diwas%20Phuyal-ff69b4?style=for-the-badge)  
+> `K250106@student.kent.edu.au`
+
+> ![Frontend Developer](https://img.shields.io/badge/Frontend%20Developer-Anil%20K%20C-orange?style=for-the-badge)  
+> `K250771@student.kent.edu.au`
+
+> ![Backend Developer](https://img.shields.io/badge/Backend%20Developer-Achima%20Basnet-2ecc71?style=for-the-badge)  
+> `K210655@student.kent.edu.au`
+
+> ![QA Engineer](https://img.shields.io/badge/QA%20Engineer-Thi%20Phuong%20Thanh%20Bui-yellow?style=for-the-badge)  
+> `K250200@student.kent.edu.au`
 
 ## 1.4 Definitions, Acronyms, and Abbreviations
 

@@ -159,6 +159,7 @@ This screenshot shows the PostgreSQL database in pgAdmin 4 and confirms that the
 This screenshot shows the automatically generated ER diagram after reverse engineering the PostgreSQL schema in DBeaver.
 
 ![DBeaver ER Diagram](../charts/resources/dbeaver-erd.png)
+![ER Diagram](../charts/resources/ERD_moonlight_wharehouse.png)
 
 ### 3. Database Tables in pgAdmin
 This screenshot shows the created tables inside the PostgreSQL database after successful schema execution.

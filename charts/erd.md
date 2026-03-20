@@ -166,7 +166,3 @@ This screenshot shows the created tables inside the PostgreSQL database after su
 ![pgAdmin Tables](../charts/resources/pgadmin-tables.png)
 
 ---
-
-
-```text
-/charts/

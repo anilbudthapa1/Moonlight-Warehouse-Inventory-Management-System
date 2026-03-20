@@ -167,9 +167,6 @@ This screenshot shows the created tables inside the PostgreSQL database after su
 
 ---
 
-## Screenshot Storage Location
-
-To keep the repository organized, save your screenshots in this folder:
 
 ```text
 /charts/

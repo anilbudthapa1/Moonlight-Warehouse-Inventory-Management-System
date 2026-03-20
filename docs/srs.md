@@ -63,10 +63,13 @@ This SRS describes the overall system purpose, stakeholders, user roles, system 
 The Moonlight Warehouse Management System is a new standalone web application for warehouse inventory operations. It is designed to replace manual, spreadsheet-based, or disconnected processes with a centralized digital platform.
 
 The system will include:
+[![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![Backend](https://img.shields.io/badge/Backend-Node.js%20%26%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Database](https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-- React frontend for user interaction
-- Node.js and Express backend for business logic and APIs
-- PostgreSQL database for secure data storage
+- **React frontend** for user interaction  
+- **Node.js and Express backend** for business logic and APIs  
+- **PostgreSQL database** for secure data storage
 
 ## 2.2 Product Functions
 The main functions of the system are:

@@ -62,14 +62,14 @@ This SRS describes the overall system purpose, stakeholders, user roles, system 
 ## 2.1 Product Perspective
 The Moonlight Warehouse Management System is a new standalone web application for warehouse inventory operations. It is designed to replace manual, spreadsheet-based, or disconnected processes with a centralized digital platform.
 
-The system will include:
-[![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
-[![Backend](https://img.shields.io/badge/Backend-Node.js%20%26%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+The system will include:  
+[![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)  
+[![Backend](https://img.shields.io/badge/Backend-Node.js%20%26%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)  
 [![Database](https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
 - **React frontend** for user interaction  
 - **Node.js and Express backend** for business logic and APIs  
-- **PostgreSQL database** for secure data storage
+- **PostgreSQL database** for secure data storage  
 
 ## 2.2 Product Functions
 The main functions of the system are:
@@ -360,65 +360,120 @@ The project excludes:
 
 # 11. Use Cases
 
-### UC-01 User Login and Role-Based Access
-
+## UC-01 User Login and Role-Based Access
 **Actors:** Administrator, Warehouse Manager, Warehouse Staff  
 **Description:** A user selects a role, enters login credentials, and accesses the system based on the authenticated account role. If the user account does not exist, the system provides an option to create a new account.  
-
 **Preconditions:**  
 - The login page is available  
 - The user must select a role before attempting login  
 - Existing users must already have an account in the system  
-
 **Postconditions:**  
 - Valid users are redirected to the correct dashboard based on their role  
 - Invalid users are shown an appropriate error message  
 - New users may create an account and return to the login page  
-
-**UI/UX Workflow Reference:**  
-- [View User Authentication Workflow](ui-ux-design.md#user-authentication-workflow)
+**Detailed UI/UX Reference:**  
+- [View UC-01 in UI/UX Design](ui-ux-design.md#uc-01-user-login-and-role-based-access)
 
 ## UC-02 Manage Products
-**Actor:** Administrator, Warehouse Manager  
-**Description:** User creates, updates, views, or deletes product information.  
-**Precondition:** User is authenticated and authorized.  
-**Postcondition:** Product data is stored or updated successfully.  
+**Actors:** Administrator, Warehouse Manager  
+**Description:** User creates, updates, views, or deletes product information, including assigning products to categories and maintaining key product details required for warehouse inventory management.  
+**Preconditions:**  
+- User is authenticated and authorized  
+- The product management page is available  
+- Categories required for assignment are available in the system  
+**Postconditions:**  
+- Product data is stored or updated successfully  
+- Product-category assignment is saved correctly  
+- The updated product list is displayed to the user  
+**Detailed UI/UX Reference:**  
+- [View UC-02 in UI/UX Design](ui-ux-design.md#uc-02-manage-products)
 
 ## UC-03 Manage Suppliers
-**Actor:** Administrator, Warehouse Manager  
-**Description:** User creates, updates, views, or deletes supplier records.  
-**Precondition:** User is authenticated and authorized.  
-**Postcondition:** Supplier data is updated successfully.  
+**Actors:** Administrator, Warehouse Manager  
+**Description:** User creates, updates, views, or deletes supplier records, including maintaining supplier contact details and supporting supplier-product relationships required for warehouse inventory operations.  
+**Preconditions:**  
+- User is authenticated and authorized  
+- The supplier management page is available  
+**Postconditions:**  
+- Supplier data is stored or updated successfully  
+- Supplier contact details are maintained correctly  
+- The updated supplier list is displayed to the user  
+**Detailed UI/UX Reference:**  
+- [View UC-03 in UI/UX Design](ui-ux-design.md#uc-03-manage-suppliers)
 
 ## UC-04 Record Stock-In
-**Actor:** Warehouse Staff, Warehouse Manager  
-**Description:** User records newly received inventory into the system.  
-**Precondition:** Product exists in the system.  
-**Postcondition:** Inventory quantity increases and movement is logged.  
+**Actors:** Warehouse Staff, Warehouse Manager  
+**Description:** User records newly received inventory into the system by entering product, quantity, warehouse location, batch details, and other receiving information.  
+**Preconditions:**  
+- User is authenticated and authorized  
+- The stock-in page is available  
+- Product exists in the system  
+- A valid warehouse location is available for storing the received stock  
+**Postconditions:**  
+- Inventory quantity increases successfully  
+- Stock movement is logged in the system  
+- Batch and expiry information is recorded where required  
+- Updated stock is reflected in the inventory page  
+**Detailed UI/UX Reference:**  
+- [View UC-04 in UI/UX Design](ui-ux-design.md#uc-04-record-stock-in)
 
 ## UC-05 Record Stock-Out
-**Actor:** Warehouse Staff, Warehouse Manager  
-**Description:** User records inventory leaving the warehouse.  
-**Precondition:** Sufficient stock is available.  
-**Postcondition:** Inventory quantity decreases and movement is logged.  
+**Actors:** Warehouse Staff, Warehouse Manager  
+**Description:** User records inventory leaving the warehouse by selecting the product, quantity, and warehouse location so that stock levels are updated accurately and outgoing movement is tracked.  
+**Preconditions:**  
+- User is authenticated and authorized  
+- The stock-out page is available  
+- Product exists in the system  
+- Sufficient stock is available in the selected location  
+**Postconditions:**  
+- Inventory quantity decreases successfully  
+- Stock movement is logged in the system  
+- Updated stock quantity is reflected in the inventory page  
+**Detailed UI/UX Reference:**  
+- [View UC-05 in UI/UX Design](ui-ux-design.md#uc-05-record-stock-out)
 
 ## UC-06 Adjust Inventory
-**Actor:** Warehouse Manager  
-**Description:** User adjusts stock levels for correction purposes.  
-**Precondition:** User is authorized.  
-**Postcondition:** Inventory is updated and adjustment is logged with reason.  
+**Actors:** Warehouse Manager  
+**Description:** User adjusts stock levels for correction purposes by updating the inventory quantity for a selected product and location, while recording the reason for the change.  
+**Preconditions:**  
+- User is authenticated and authorized  
+- The inventory adjustment page is available  
+- The selected product exists in the system  
+- The selected warehouse location exists in the system  
+**Postconditions:**  
+- Inventory quantity is updated successfully  
+- The adjustment is logged with a reason  
+- The updated quantity is displayed in the inventory page  
+**Detailed UI/UX Reference:**  
+- [View UC-06 in UI/UX Design](ui-ux-design.md#uc-06-adjust-inventory)
 
 ## UC-07 Track Expiry and Batches
-**Actor:** Warehouse Manager, Warehouse Staff  
-**Description:** User views batch and expiry data for perishable goods.  
-**Precondition:** Batch data exists.  
-**Postcondition:** User can identify expired or near-expiry items.  
+**Actors:** Warehouse Manager, Warehouse Staff  
+**Description:** User views batch and expiry data for perishable goods so that expired and near-expiry items can be identified quickly and managed appropriately.  
+**Preconditions:**  
+- User is authenticated and authorized  
+- The batch and expiry tracking page is available  
+- Batch data exists for relevant products  
+**Postconditions:**  
+- User can identify expired or near-expiry items  
+- Batch and expiry details are displayed clearly  
+- Users can review products that require follow-up action  
+**Detailed UI/UX Reference:**  
+- [View UC-07 in UI/UX Design](ui-ux-design.md#uc-07-track-expiry-and-batches)
 
 ## UC-08 View Reports
-**Actor:** Administrator, Warehouse Manager  
-**Description:** User views stock, alert, and movement reports.  
-**Precondition:** Relevant data exists in the system.  
-**Postcondition:** User can review operational performance and stock status.  
+**Actors:** Administrator, Warehouse Manager  
+**Description:** User views stock, alert, and movement reports to monitor warehouse performance, inventory status, and operational activity.  
+**Preconditions:**  
+- User is authenticated and authorized  
+- The reports page is available  
+- Relevant report data exists in the system  
+**Postconditions:**  
+- User can review operational performance and stock status  
+- Selected report data is displayed in a readable format  
+- User may filter or export report results where supported  
+**Detailed UI/UX Reference:**  
+- [View UC-08 in UI/UX Design](ui-ux-design.md#uc-08-view-reports)
 
 ---
 

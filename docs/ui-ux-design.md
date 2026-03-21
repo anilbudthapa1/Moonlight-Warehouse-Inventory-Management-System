@@ -53,7 +53,7 @@ This document explains the user interface and user experience design of the Moon
 This use case is important because login is the first interaction point between the user and the system. The UI must make role selection, credential input, and error handling clear and simple. From a user experience perspective, this workflow ensures that different user roles are redirected to the correct dashboard and are only allowed to access features relevant to their responsibilities.
 
 ### Reference Screenshot / Diagram
-[View UC-01 User Login and Role-Based Access](../charts/resources/uc-01-user-login-and-role-based-access.png)
+![View UC-01 User Login and Role-Based Access](../charts/resources/uc-01-user-login-and-role-based-access.png)
 
 ---
 

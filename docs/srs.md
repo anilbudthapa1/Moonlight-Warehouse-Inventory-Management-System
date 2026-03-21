@@ -480,7 +480,7 @@ The project excludes:
 ---
 
 # 12. Data Requirements
-
+The Data Requirements section defines the main data the Moonlight Warehouse Management System must store and manage. It identifies the core entities such as users, products, suppliers, inventory, batches, and alerts, together with their important fields. This helps ensure the database structure supports the system’s functional requirements and keeps warehouse data organized, accurate, and consistent.
 ## 12.1 Main Data Entities
 
 - Users
@@ -571,6 +571,9 @@ The project excludes:
 - alert_message
 - status
 - created_at
+  
+### Reference Diagram
+![data_dictionary.png](../charts/resources/data_dictionary.png)
 
 ---
 

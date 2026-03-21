@@ -176,7 +176,7 @@ The project will apply privacy-by-design principles, use secure authentication a
 - **Mr Diwas Phuyal** — `K250106@student.kent.edu.au`
 - **Mr Anil K C** — `K250771@student.kent.edu.au`
 - **Mr Anil Budthapa (TU)** — `K250101@student.kent.edu.au`
-- **Miss Achima Basnet** — `K210655@student.kent.edu.au`
+- **Miss Ashima Basnet** — `K210655@student.kent.edu.au`
 - **Ms Thi Phuong Thanh Bui** — `K250200@student.kent.edu.au`
 
 ---

@@ -107,8 +107,8 @@ The main functions of the system are:
 The system will operate in the following environment:
 
 - Web browser-based frontend
-- Desktop or laptop access
-- Backend hosted locally or on cloud/server
+- laptop access
+- Backend hosted locally
 - PostgreSQL database environment
 - Development on modern operating systems such as Windows, Linux, or macOS
 

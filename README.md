@@ -97,28 +97,26 @@ The project is being managed using a structured team approach with the following
 - **QA Engineer** – testing, bug validation, test plans, and quality assurance
 
 ---
+```
+<details>
+  <summary>Repository Structure</summary>
 
-## 🗂️ Repository Structure
-```text
-moonlight-warehouse-management/
+  <pre><code>Moonlight-Warehouse-Inventory-Management-System/
+├── charts/
+│   ├── erd.md
+│   └── resources/
+│       ├── ERD_moonlight_warehouse.png
+│       ├── Granth_chart.mpp
+│       ├── dbeaver-erd.png
+│       ├── pgadmin-schema-execution.png
+│       ├── pgadmin-tables.png
+│       └── uc-01-user-login-and-role-based-access.png
 ├── docs/
-│   ├── charts
-│   │   ├──Granth_chart.mpp
-│   │   ├──erd
 │   ├── problemstatement.md
-│   ├── market-research.md
 │   ├── srs.md
-│   ├── system-architecture.md
-│   ├── ui-ux-design.md
-│   ├── test-plan.md
-│   ├── test-report.md
-│   ├── deployment.md
-│   ├── final-report.md
-│   └── product-demo.md
-├── app/
-├── tests/
-├── README.md
-└── .gitignore
+│   └── ui-ux-design.md
+└── README.md</code></pre>
+</details>
 
 ```
 

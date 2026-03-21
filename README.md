@@ -97,7 +97,7 @@ The project is being managed using a structured team approach with the following
 - **QA Engineer** – testing, bug validation, test plans, and quality assurance
 
 ---
-```
+
 <details>
   <summary>Repository Structure</summary>
 
@@ -118,7 +118,7 @@ The project is being managed using a structured team approach with the following
 └── README.md</code></pre>
 </details>
 
-```
+
 
 ## 🚀 Development Approach
 

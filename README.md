@@ -29,12 +29,12 @@ The development process follows software engineering practices including **produ
 
 ## 🎯 Purpose of the Project
 The purpose of this project is to design and develop a web-based warehouse management solution that improves warehouse inventory operations for an Australian e-commerce grocery business. The system aims to reduce manual work, improve stock accuracy, support expiry and batch tracking, manage stock movement efficiently, and provide a centralized platform for warehouse-related activities.
-
+- [read in details..](docs/srs.md)
 ---
 
 ## ✅ Objective of the Project
 The objective of the Moonlight Warehouse Management System project is to develop a secure, scalable, and user-friendly warehouse inventory management system. The system is intended to streamline stock management, improve inventory visibility, reduce manual errors, support batch and expiry tracking, enhance warehouse efficiency, and generate useful reports for operational decision-making.
-
+- [read in details..](docs/srs.md)
 ---
 
 ## ❗ Problem Statement

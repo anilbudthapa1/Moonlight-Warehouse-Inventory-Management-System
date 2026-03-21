@@ -152,7 +152,9 @@ The system will operate in the following environment:
 
 # 4. Business Problem
 
-Moonlight requires efficient warehouse operations to manage inventory, perishable products, stock movement, and order-related preparation. Manual and fragmented processes may lead to inaccurate stock records, limited inventory visibility, expiry management problems, and warehouse inefficiency. In the Australian e-commerce grocery market, these issues can affect profitability, customer satisfaction, and business growth. Therefore, a centralized warehouse management system is required to improve accuracy, reduce waste, and support better operational control.
+Moonlight requires a centralized warehouse management system to improve inventory accuracy, reduce waste, and support better operational control in an Australian e-commerce grocery environment. A detailed explanation of the business problem, affected stakeholders, and root causes is provided in:
+
+- [Problem Statement](problemstatement.md)
 
 ---
 

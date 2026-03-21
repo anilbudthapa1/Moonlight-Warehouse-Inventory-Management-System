@@ -34,7 +34,7 @@ This document is intended for:
 > ![Frontend Developer](https://img.shields.io/badge/Frontend%20Developer-Anil%20K%20C-orange?style=for-the-badge)  
 > `K250771@student.kent.edu.au`
 
-> ![Backend Developer](https://img.shields.io/badge/Backend%20Developer-Achima%20Basnet-2ecc71?style=for-the-badge)  
+> ![Backend Developer](https://img.shields.io/badge/Backend%20Developer-Ashima%20Basnet-2ecc71?style=for-the-badge)  
 > `K210655@student.kent.edu.au`
 
 > ![QA Engineer](https://img.shields.io/badge/QA%20Engineer-Thi%20Phuong%20Thanh%20Bui-yellow?style=for-the-badge)  

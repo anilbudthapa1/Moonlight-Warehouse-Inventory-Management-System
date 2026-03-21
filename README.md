@@ -98,11 +98,25 @@ The project is being managed using a structured team approach with the following
 
 ---
 
-Moonlight-Warehouse-Inventory-Management-System/
-├── docs/
+<details>
+  <summary>Repository Structure</summary>
+
+  <pre><code>Moonlight-Warehouse-Inventory-Management-System/
 ├── charts/
+│   ├── erd.md
 │   └── resources/
-└── README.md
+│       ├── ERD_moonlight_warehouse.png
+│       ├── Granth_chart.mpp
+│       ├── dbeaver-erd.png
+│       ├── pgadmin-schema-execution.png
+│       ├── pgadmin-tables.png
+│       └── uc-01-user-login-and-role-based-access.png
+├── docs/
+│   ├── problemstatement.md
+│   ├── srs.md
+│   └── ui-ux-design.md
+└── README.md</code></pre>
+</details>
 
 
 ## 🚀 Development Approach

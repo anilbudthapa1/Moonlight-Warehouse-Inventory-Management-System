@@ -49,14 +49,7 @@ The scope of this project includes the design and development of a web-based war
 
 - User authentication and role-based access
 - Product and category management
-- Supplier management
-- Inventory tracking
-- Stock in and stock out operations
-- Batch and expiry monitoring
-- Warehouse location management
-- Low-stock alerts
-- Reporting and dashboard features
-- Project documentation and deployment planning
+- [read in details..](docs/srs.md)
 
 ---
 
@@ -66,12 +59,7 @@ The following items are outside the scope of this project:
 - Customer-facing e-commerce shopping website
 - Online payment integration
 - Delivery route optimization
-- Mobile application development
-- AI-based demand forecasting
-- Accounting and payroll functions
-- IoT sensors and warehouse robotics
-- Full ERP integration
-- International multi-warehouse logistics
+- [read in details..](docs/srs.md)
 
 ---
 
@@ -86,7 +74,7 @@ The Moonlight Warehouse Management System must:
 - Generate reports and dashboard summaries
 - Be user-friendly, secure, scalable, and maintainable
 - Support future deployment and system enhancement
-
+- [read in details..](docs/srs.md)
 ---
 
 ## 👥 Stakeholders
@@ -95,12 +83,7 @@ The key stakeholders of this project include:
 - Business Owner / Client
 - Product Manager
 - Tech Lead
-- Backend Developer
-- Frontend Developer
-- QA Engineer
-- Warehouse Staff
-- Warehouse Manager
-- System Users
+- [read in details..](docs/srs.md)
 
 ---
 
